@@ -448,35 +448,110 @@ Definition of word.
 %----------------------------------------------------------------------------------------
 %	CHAPTER 3
 %----------------------------------------------------------------------------------------
+\chapterimage{chapter_head_2.pdf} % Chapter heading image
 
-\chapterimage{chapter_head_1.pdf} % Chapter heading image
+\chapter{Statistika}
 
-\chapter{Presenting Information}
+\section{Ukuran Pemusatan Data}\index{Ukuran Pemusatan Data}
 
-\section{Table}\index{Table}
+Ukuran pemusatan data disebut juga sembarang ukuran yang menunjukkan pusat sekumpulan data, yang telah diurutkan dari angka yang terkecil sampai terbesar atau sebaliknya dari angka yang terbesar sampai terkecil. Beberapa fungsi dari ukuran pemusatan data adalah untuk membandingkan dua data atau contoh, karena sangat sulit untuk membandingkan banyaknya anggota dari masing-masing anggota populasi atau banyaknya anggota data contoh. Nilai ukuran pemusatan ini dibuat sehingga dapat mewakili seluruh nilai pada data yang bersangkutan.
 
-\begin{table}[h]
-\centering
-\begin{tabular}{l l l}
-\toprule
-\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
-\midrule
-Treatment 1 & 0.0003262 & 0.562 \\
-Treatment 2 & 0.0015681 & 0.910 \\
-Treatment 3 & 0.0009271 & 0.296 \\
-\bottomrule
-\end{tabular}
-\caption{Table caption}
-\end{table}
+Ukuran pemusatan yang sering digunakan adalah mean, modus, dan median. Nilai tengah (mean) akan sangat dipengaruh nilai banyaknya data. Median yang sangat beragam sulit dalam penggunaan parameter populasi. Dan modus hanya digunakan untuk data ukuran yang besar.
+
+Salah satu ukuran yang paling penting untuk menggambarkan suatu distribusi data adalah nilai pusat data pengamat. Setiap pengukuran aritmatika yang ditujukan untuk menggambarkan suatu nilai yang mewakili nilai pusat atau nilai sentral dari suatu gugus data (himpunan pengamatan) dikenal sebagai ukuran tendensi sentral. Biasanya Ukuran pemusatan data sering kali digunakan agar data yang diperoleh mudah untuk dipahami oleh siswa. Ukuran pemusatan data debagi menjadi mean yang digunakan untuk mengetahui nilai rata rata pada setiap himpunan angka, median digunakan untuk mengetahui suatu nilai tengah suatu himpunan angka, dan modus adalah data yang sering muncul.
+
 
 %------------------------------------------------
 
-\section{Figure}\index{Figure}
+\section{Mean}\index{Mean}
 
-\begin{figure}[h]
-\centering\includegraphics[scale=0.5]{placeholder}
-\caption{Figure caption}
-\end{figure}
+Mean yaitu suatu nilai rata rata dan di dapatkan dari sekumpulan data adalah jumlah seluruh data dibagi banyaknya data. Dengan mengetahui mean suatu data, maka variasi data yang lain akan mudah diperkirakan.atau juga dapat disebut suatu metode yang sering digunakan untuk menggambarkan ukuran suatu data. Mean dapat dihitung dengan menjumlahkan seluruh nilai data pengukuran dan dibagi dengan banyaknya data yang digunakan. Definisi tersebut di nyatakan dengan persamaan sebagai berikut:
+
+\begin{theorem}[Mean]
+rumus mencari nilai rata-rata:
+\begin{align}
+Sampel\\
+& \bar{X}=\frac{x_{1}+x_{2}+x_{3}+......+x_{n}}{n}=\sum_{i=0}^{n}\frac{x_{i}}{n}\\
+Populasi\\
+& \bar{\mu}=\frac{x_{1}+x_{2}+x_{3}+......+x_{n}}{n}=\sum_{i=0}^{n}\frac{x_{i}}{n}
+\end{align}
+\end{theorem}
+
+Keterangan
+
+$\sum$ = lambang penjumlahan semua gugus data pengamatan 
+
+n = banyaknya sampel data 
+
+N = banyaknya data populasi 
+
+$\bar x$ = nilai rata-rata sampel
+
+$\mu$ = nilai rata-rata populasi
+
+\subsection{Distribusi frekuensi}\index{Theorems!Several Equations}
+Rata-rata yang dihitung berdasarkan data yang sudah ditata dalam bentuk tabel distribusi frekuensi dan dapat ditentukan dengan menggunakan formula / rumus rumus yang sama dengan formula untuk menghitung nilai rata-rata dari data yang sudah dikelompokkan atau data yang terdistribusi, dengan rumus sebagai berikut:
+
+\begin{theorem}[Mean]
+rumus mencari nilai distribusi frekuensi:
+\begin{align}
+& \bar{X} = \frac{\sum f_{i}x_{i}}{\sum f_{i}} 
+\end{align}
+\end{theorem}
+
+Keterangan
+ 
+$ \sum $ = lambang penjumlahan semua gugus data
+
+$ f_{i} $ = frekuensi data ke-i
+
+$ \bar x $= nilai rata-rata sampel
+
+%------------------------------------------------
+
+\section{Median}\index{Median}
+
+Median merupakan nilai tengah dari sekumpulan data yang telah diurutkan dari angka terkecil sampai ke angka terbesar. Median ditentukan berdasarkan jumlah data, dengan jumlah data yang ganjil maka mediannya memiliki nilai tengah dari data yang telah diurutkan, dan dengan jumlah data genap maka mediannya adalah mean / rataan dari dua bilangan yang ditengah data yang sudah diurutkan
+
+\begin{theorem}[Mean]
+rumus mencari nilai rata-rata:
+\begin{align}
+untuk n ganjil\\
+& Me =x_{\frac{1}{2}(n+1)} \\
+Untuk n genap\\
+& Me =\frac{x_{\frac{n}{2}}+x_{\frac{n}{2}+1}}{2}
+\end{align}
+\end{theorem}
+
+Keterangan 
+
+$x_{\frac{n}{2}}$ = data pada urutan ke-$\frac{n}{2}$ setelah diurutkan
+
+
+\section{Modus}\index{Modus}
+
+Modus adalah data yang sering muncul atau data yang memiliki jumlah frekuensi paling banyak. Sebuah data dapat dikatakan tidak memiliki modus ketika seluruh data yang muncul memiliki frekuensi yang sama atau dapat disebut sebuah data memiliki modus lebih dari satu.
+Untuk data yang ditampilkan dalam bentuk tabel distribusi frekuensi berkelompok, dapat digunakan menentukan letak modus dengan cara melihat kelas interval yang mempunyai frekuensi paling besar.Bila data mempunyai satu modus dapat disebut unimodal dan data yang memiliki dua modus disebut bimodal, sedangkan jika data mempunyai modus yang lebih dari dua disebut multimodal. Modus dapat dilambangkan dengan Mo
+
+\begin{theorem}[Mean]
+rumus mencari nilai rata-rata:
+\begin{align}
+untuk n ganjil\\
+& Mo = T_{b}+(\frac{s_{1}}{s_{1}+s_{2}})i
+\end{align}
+\end{theorem}
+
+Keterangan 
+
+$Mo$ = Modus
+
+$T_{b}$ = Tepi bawah dari kelas modus
+
+$s_{1}$ = Selisih frekuensi kelas modus dengan frekuensi kelas sebelum kelas modus
+
+$s_{2}$ = Selisih frekuensi kelas modus dengan frekuensi kelas sesudah kelas modus
+
+$i$ = panjang kelas interval
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
