@@ -446,13 +446,88 @@ Given a vector space $E$, a norm on $E$ is an application, denoted $||\cdot||$, 
 \end{definition}
 
 \chapter{Kaidah Pencacahan}
+
+Pengertian Kaidah Pencacahan (Caunting Slots)
+
+
+Kaidah pencacahan atau Caunting Slots adalah suatu kaidah yang digunakan untuk menentukan atau menghitung berapa banyak cara yang terjadi dari suatu peristiwa. Kaidah pencacahan terdiri atas :
+
+\section{Aturan Penjumlahan}
+1.Aturan penjumlahan
+
+ Jika ada A dan B yang merupakan himpunan saling lepas dengan banyak anggota himpunannya adalah x dan y, maka banyaknya cara mengambil satu anggota dari gabungan keduanya akan sama dengan x+y, dinotasikan:
+ 
+ \includegraphics[width = 9cm, height= 2cm]{Pictures/notasijumlah.JPG}
+ 
+ 
+ Gambar. Notasi aturan penjumlahan
+ 
+ Atau secara sederhana digunakan saat ada sejumlah kejadian yang tidak saling berhubungan (saling lepas). Dalam kondisi ini kejadian-kejadian tersebut dijumlahkan untuk mendapatkan total kejadian yang mungkin terjadi.
+
+Contoh 1:
+
+Dari kota A ke kota B ada beberapa jenis angkutan yang dapat digunakan. Ada 4 travel, 2 kapal laut, dan 1 pesawat terbang yang dapat dipilih. Ada berapa total cara berbeda untuk berangkat dari kota A menuju kota B?
+
+Pembahasan:
+
+
+\includegraphics[width = 6cm, height= 4cm]{Pictures/contoh1.JPG}
+
+	Dalam soal di atas ketika kita memilih travel, kapal laut, maupun pesawat terbang tidak berpengaruh satu sama lain, ketiganya merupakan himpunan yang saling lepas. Sehingga ada 4+2+1 = 7 cara berbeda untuk berangkat dari kota A menuju kota B. []
+
+Definisi 1
+Jika suatu kejadian dapat dikerjakan dengan beberapa cara, tetapi cara-cara ini tidak dapat dikerjakan pada waktu yang sama.
+Jika kejadian tersebut dapat terjadi dengan n1n1 cara, atau
+kejadian tersebut terjadi dengan n2n2 cara, atau
+kejadian tersebut dapat terjadi dengan n3n3 cara, atau
+...................
+kejadian tersebut dapat terjadi dengan npnp cara,
+maka kejadian dengan ciri yang demikian dapat terjadi dengan 
+(n1+n2+n3+...+np)(n1+n2+n3+...+np) cara.
+
+Contoh 1
+
+Dalam sebuah pantia, wakil dari sebuah jurusan dapat dipilih dari dosen, atau mahasiswa. Jika pada jurusan tersebut memiliki 37 dosen dan 83 mahasiswa, Berapa banyak cara memilih wakil dari jurusan tersebut?
+
+Jawab:
+
+Ada 37 cara untuk memilih wakil dari sebuah jurusan yang berasal dari kalangan dosen dan ada 83 cara memilih wakil dari sebuah jurusan yang berasal dari kalangan mahasiswa. Karena pada jurusan tersebut tidak ada dosen yang berstatus mahasiswa ataupun mahasiswa yang berstatus dosen, maka berdasarkan aturan penjumlahan, ada37+83=120 cara untuk memilih wakil dari sebuah jurusan. 
+
+Contoh 2
+
+Seorang pelajar dapat memilih sebuah proyek komputer dari salah satu diantara tiga aftar yang tersedia. ketiga daftar tersebut terdiri atas 23, 15, dan 19 kemungkinan proyek. Proyek - proyek komputer yang ada pada ketiga daftar tersebut semuanya berbeda. Berapa banyakkemungkinan siswa tersebut memilih proyek komputer?
+
+Jawab: 
+
+karena dari ketiga daftar tersebut semua proyek berbeda, dimana pada daftar pertama ada 23 proyek, daftar kedua ada 15 proyek , dan daftar ketiga ada 19 proyek Maka  berdasarkan aturan penjumlahan ada 23+15+19 = 57 kemungkinan siswa tersebut memilih proyekkomputer. []
+
+Contoh 3
+
+Misalkan Andi akan berangkat sekolah bersama dengan teman sekelasnya, Amir. Rumah Andi terletak pada titik P dan rumah Amir terletak pada titik Q (lihat gambar). Sehingga, dalam perjalanan ke sekolah Andi akan menuju rumah Amir terlebih dahulu, kemudian bersama-sama dengan Amir ia akan berangkat ke sekolah. Ada berapa cara yang dapat ditempuh Andi untuk berangkat ke sekolah apabila ia harus melalui rumah Amir terlebih dahulu?
+
+ \includegraphics[width = 8cm, height= 5cm]{Pictures/contoh3.JPG}
+
+Banyaknya cara perjalanan dari titik P ke titik Q dilanjutkan ke titik R dapat digambarkan dengan diagram pohon seperti pada gambar berikut.
+
+ \includegraphics[width = 8cm, height= 5cm]{Pictures/contoh3a.JPG}
+ 
+ Dari diagram pohon tersebut terlihat rute perjalanan dari titik P ke titik R melalui titi Q ada 6 cara yang dapat ditulis dalam bentuk himpunan pasangan berurutan {(a, x), (a, y), (a, z), (b, x), (b, y), (b, z)}.
+
+ 
+ \includegraphics[width = 8cm, height= 5cm]{Pictures/contoh3b.JPG}
+ 
+ 
+
+%------------------------------------------------
+
+
 \section{Aturan Perkalian}
 
 1.Aturan perkalian
  Misalkan, dari 3 orang siswa, yaitu Algi, Bianda, dan Cahyadi akan dipilih untuk menjadi ketua kelas, sekretaris, dan bendahara dengan aturan bahwa seseorang tidak boleh merangkap jabatan pengurus kelas. Banyak cara 3 orang dipilih menjadi pengurus kelas tersebut akan dipelajari melalui uraian berikut. Amati Gambar
  
  \includegraphics[width = 8cm, height= 5cm]{Pictures/gen1.png}
- Gambar  Aturan perkalian pemilihan pengurus kelas.
+Gambar  Aturan perkalian pemilihan pengurus kelas.
 a. Untuk ketua kelas (K)
  Posisi ketua kelas dapat dipilih dari 3 orang, yaitu Algi  (A), Bianda (B), atau Cahyadi (C).
 
