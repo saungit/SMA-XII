@@ -2017,6 +2017,115 @@ $s_{2}$ = Selisih frekuensi kelas modus dengan frekuensi kelas sesudah kelas mod
 
 $i$ = panjang kelas interval
 
+\subsection{Rata-Rata Hitung (Mean/Arhitmetic Mean)}\index{Theorems!Several Equations}
+
+Rata-rata merupakan nilai yang mewakili kumpul data yaitu nilai yang kurang dari nilai itu, nilai yang lebih dari nilai itu dan nilai itu sendiri. 
+Contoh:
+-	Ani cantik
+-	Rina tidak cantik		=      Kesimpulannya rata-rata perempuan itu cantik
+-	Dini  sangat cantik          
+Mean dari sekumpulan data adalah jumlah dari kumpulan bilangan dibagi banyak bilangan tersebut. 
+
+Untuk data tunggal seperti: $x_{1}, x_{2}, x_{3}.....x_{n} $. Maka:
+
+\begin{theorem}[Mean]
+rumus mencari nilai rata-rata:
+\begin{align}
+& \overline{x} = \frac{\sum x_{i}}{n}
+\end{align}
+\end{theorem}
+
+Keterangan:
+	 
+$\overline{x}$= Rataan Hitung
+		 
+$n$ = banyak data 
+
+$x_{i}$ = data ke-i
+
+Contoh = Tentukan rata-rata dari nilai siswa sebagai berikut: 70, 69, 45, 80 dan 56!
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l}
+\toprule
+\textbf{$x_{i}$} & \textbf{$f_{i}$}\\
+\midrule
+70 & 5 \\
+69 & 6 \\
+45 & 3 \\
+80 & 1 \\
+56 & 1 \\
+\bottomrule
+\end{tabular}
+\caption{Data Frekuensi Tunggal}
+\end{table}
+
+$x_{i}$ menyatakan nilai ujian dan $f_{i}$ menyatakan frekuensi untuk nilai $x_{i}$ yang bersesuaian. Untuk mencari rata-rata tabel diatas, akan lebih mudah bila dibuat tabel penolong seperti berikut:
+
+
+$\overline{x} = \frac{\sum f_{i}\sum x_{i}}{\sum x_{i}}$
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l}
+\toprule
+\textbf{$x_{i}$} & \textbf{$f_{i}$} & \textbf{$f_{i}x_{i}$}\\
+\midrule
+70 & 5 & 350 \\
+69 & 6 & 414\\
+45 & 3 & 135\\
+80 & 1 & 80\\
+56 & 1 & 56\\
+\bottomrule
+\end{tabular}
+\caption{Table caption}
+\end{table}
+
+Dari tabel, dapat kita lihat $\sum f_{i}x_{i}$  = 1035 dan $\sum f_{i}$  = 16. Sehingga:
+
+$ \overline{x} = \frac{\sum f_{i}\sum x_{i}}{\sum x_{i}} = \frac{1035}{16} = 64,6 $
+
+Rataan hitung nilai tersebut adalah 64,6.
+
+
+Untuk data daftar distribusi frekuensi kelompok rumus yang digunakan sama dengan data daftar distribusi frekuensi tunggal yaitu $\overline{x} = \frac{\sum f_{i}\sum x_{i}}{\sum x_{i}}$ . Hanya saja, karena ada pengelompokan kelas maka $\sum x_{i}$ yang dirumus merupakan titik tengah dari kelas tersebut.$\frac{batas\;atas + batas\;bawah}{2}$
+
+Contoh: tabel nilai ujian 80 Mahasiswa (I)
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l l}
+\toprule
+\textbf{Kelas} & \textbf{$x_{i}$} & \textbf{$f_{i}$} & \textbf{$f_{i}x_{i}$}\\
+\midrule
+31-40 & 1 & 35,5 & 35,5 \\
+41-50 & 2 & 45,5 & 91 \\
+51-60 & 5 & 55,5 & 277,5\\
+61-70 & 15 & 65,6 & 982,5\\
+71-80 & 25 & 75,5 & 1887,5\\
+81-90 & 20 & 85,5 & 1710\\
+91-100 & 18 & 95,5 & 1146\\
+\bottomrule
+\end{tabular}
+\caption{Nilai Ujian}
+\end{table}
+
+Dari tabel, dapat kita lihat $\sum f_{i}x_{i}$  = 6130 dan $\sum f_{i}$  = 80. Sehingga:
+
+
+$ \overline{x} = \frac{\sum f_{i}\sum x_{i}}{\sum x_{i}} = \frac{6130}{80} = 76,62 $
+
+Rataan hitung nilai ujiannya adalah 76,62.
+
+Untuk mencari rataan hitung data distribusi frekuensi kelompok dapat digunakan cara lainnya yaitu cara sandi atau cara singkat. Untuk memakai cara ini maka gunakan langkah-langkah berikut
+	Ambil salah satu titik tengah kelas, namakan x0.
+	Untuk titik tengah x0 diberi nilai sandi c = 0
+	Titik tengah yang nilainya kurang dari x0 berturut-turut diberi harga-harga sandi c = -1, c = -2, c = -3, dan seterusnya.
+	Titik tengah yang nilainya lebih dari x0 berturut-turut diberi harga-harga sandi c = +1, c = +2, c = +3, dan seterusnya.
+	p merupakan panjang kelas dimana setiap kelas memiliki panjang kelas yang sama.
+Gunakan rumus
 
 \chapter{Peluang kejadian majemuk}
 \section{Kejadian Saliing bebas}
