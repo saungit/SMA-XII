@@ -1330,7 +1330,134 @@ KUNCI JAWABAN
 
 
 
+\section{Permutasi}
+	Dalam kehidupan sehari-hari kita sering menghadapi masalah pengaturan suatu obyek yang terdiri dari beberapa unsur, baik yang disusun dengan mempertimbangkan urutan sesuai dengan posisi yang diinginkan maupun yang tidak. Misalnya menyusun kepanitiaan yang terdiri dari Ketua, Sekretaris dan Bendahara dimana urutan untuk posisi tersebut dipertimbangkan atau memilih beberapa orang untuk mewakili sekelompok orang dalam mengikuti suatu kegiatan yang dalam hal ini urutan tidak menjadi pertimbangan. Dalam matematika, penyusunan obyek yang terdiri dari beberapa unsur dengan mempertimbangkan urutan disebut dengan permutasi, sedangkan yang tidak mempertimbangkan urutan disebut dengan kombinasi.
 
+
+Masalah penyusunan kepanitiaan yang terdiri dari Ketua, Sekretaris dan Bendahara dimana urutan dipertimbangkan merupakan salah satu contoh permutasi. Jika terdapat 3 orang (misalnya Amir, Budi dan Cindy) yang akan dipilih untuk menduduki posisi tersebut, maka dengan menggunakan Prinsip Perkalian kita dapat menentukan banyaknya susunan panitia yang mungkin, yaitu:
+
+
+• Pertama menentukan Ketua, yang dapat dilakukan dalam 3 cara.
+
+
+• Begitu Ketua ditentukan, Sekretaris dapat ditentukan dalam 2 cara.
+
+
+• Setelah Ketua dan Sekretaris ditentukan, Bendahara dapat ditentukan dalam 1 cara.
+
+ 
+• Sehingga banyaknya susunan panitia yang mungkin
+
+
+Secara formal Permutasi didefinisikan sebagai berikut:
+
+
+Permutasi dari n unsur yang berbeda x1,x2,...,xn adalah pengurutan dari n unsur tersebut.
+
+
+CONTOH :
+
+
+Tentukan permutasi dari 3 huruf yang berbeda, misalnya ABC !
+
+
+Permutasi dari huruf ABC adalah ABC, ACB, BAC, BCA, CAB, CBA. Sehingga terdapat 6 permutasi dari huruf ABC.
+
+TEOREMA 2
+
+
+Terdapat n permutasi dari n unsur yang berbeda.
+
+
+Bukti
+
+
+Asumsikan bahwa permutasi dari undur yang berbeda merupakan aktivitas yang terdiri dari langkah ang beurutan. Langkah pertama adalah memilih unsur pertama yang bisa dilakukandebgn n cara. Langkah kedua adlah memilih unsuur pertama sudah terpilih. Lanjutkan langkah tersebut sampai langkah ke n yang bisa dilakukan dengan 1 cara. Berdasarkan prinsip perkalian, terdapat
+
+
+n(n-1)(n-2)...2.1=n!
+
+
+permutasi n unsur berbeda
+
+Contoh :
+
+
+Berapa banyak permutasi dari huruf ABC ?
+
+
+Terdapat 3.2.1 = 6 permutasi dari huruf ABC
+
+Berapa banyak permutasi dari huruf ABCDEF jika subuntai ABC harus selalu muncul bersama?
+
+
+Karena subuntai ABC harus selalu muncul bersama, maka subuntai ABC bisa dinyatakan sebagai satu unsur. Dengan demikian terdapat 4 unsur yang dipermutasikan, sehingga banyaknya permutasi adalah 4.3.2.1 = 24.
+
+DEFINISI
+
+
+Permutasi-r dari n unsur yang berbeda x1,x2,...,xn adalah pengurutan dari sub-himpunan dengan r anggota dari himpunan {x1,x2,...,xn}. Banyaknya permutasi-r dari n unsur yang berbeda dinotasikan dengan P(n,r).
+
+Tentukan permutasi-3 dari 5 huruf yang berbeda, misalnya ABCDE.
+
+
+Permutasi-3 dari huruf ABCDE adalah
+
+ABC ABD ABE ACB ACD ACE 
+
+ADB ADC ADE AEB AEC AED
+
+BAC BAD BAE BCA BCD BCE 
+
+BDA BDC BDE BEA BEC BED 
+
+CAB CAD CAE CBA CBD CBE 
+
+CDA CDB CDE CEA CEB CED 
+
+DAB DAC DAE DBA DBC DBE 
+
+DCA DCB DCE DEA DEB DEC 
+
+EAB EAC EAD EBA EBC EBD 
+
+ECA ECB ECD EDA EDB EDC
+
+Sehingga banyaknya permutasi-3 dari 5 huruf ABCDE adalah 60.
+
+
+TEOREMA 3
+
+Banyaknya permutasi-r dari n unsur yang berbeda adalah
+
+\includegraphics[width = 8cm, height= 4cm]{Pictures/herlin1.png}
+
+Asumsikan bahwa permutasi-r n unsur yang berbeda merupakan aktifitas yang terdiri dari r langkah yang merupakan ktifitas yang terdiri dari r langkah yang berurutan. Langkah pertama adalah memilih unsur pertama yang bisa dilakukan dengan n cara. angkah kedua adalah memilih unsur kedu yang bisa dilakukan dengan n-1 cara karena unsur pertama sudah terpilih. Lanjutkan langkah tersebut sampai dengan n-r +1 cara. Berdasarkan prinsip perkalian Diperoleh
+
+
+\includegraphics[width = 12cm, height= 6cm]{Pictures/herlin2.png}
+
+Gunakan Teorema 3.2 untuk menentukan permutasi-3 dari 5 huruf yang berbeda, misalnya ABCDE.
+
+
+Karena r = 3 dan n = 5 maka permutasi-3 dari 5 huruf ABCDE adalah
+
+\includegraphics[width = 12cm, height= 4cm]{Pictures/herlin3.png}
+
+Jadi banyaknya permutasi-3 dari 5 huruf ABCDE adalah 60.
+
+\section{kombinasi}
+
+
+Berbeda dengan permutasi yang urutan menjadi pertimbangan, pada kombinasi urutan tidak dipertimbangkan. Misalnya pemilihan 3 orang untuk mewakili kelompak 5 orang (misalnya Dedi, Eka, Feri, Gani dan Hari) dalam mengikuti suatu kegiatan. Dalam masalah ini, urutan tidak dipertimbangkan karena tidak ada bedanya antara Dedi, Eka dan Feri dengan Eka, Dedi dan Feri. Dengan mendata semua kemungkinan 3 orang yang akan dipilih dari 5 orang yang ada, diperoleh:
+
+\includegraphics[width = 12cm, height= 4cm]{Pictures/herlin4.png}
+
+Sehingga terdapat 10 cara untuk memilih 3 orang dari 5 orang yang ada.
+
+Selanjutnya kita dapat kombinasikan secara formal.
+
+Seperti keterangan diatas.
 
 
 
