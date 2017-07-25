@@ -1461,6 +1461,117 @@ Seperti keterangan diatas.
 
 
 
+DEFINISI
+
+
+Kombinasi-r dari n unsur yang berbeda x1,x2,...,xn adalah seleksi tak terurut r anggota dari himpunan {x1,x2,...,xn} (sub-himpunan dengan r unsur). Banyaknya kombinasi-r dari n unsur yang berbeda dinotasikan dengan C(n,r) atau (n r).
+
+CONTOH :
+
+Tentukan kombinasi-3 dari 5 huruf yang berbeda, misalnya ABCDE.
+Kombinasi-3 dari huruf ABCDE adalah
+
+\includegraphics[width = 12cm, height= 4cm]{Pictures/herlin5.png}
+
+Sehingga banyaknya kombinasi-3 dari 5 huruf ABCDE adalah 10.
+
+Teorema 3
+
+Banyaknya kombinasi-r dari n unsur yang berbeda adalah
+
+\includegraphics[width = 12cm, height= 4cm]{Pictures/herlin6.png}
+
+Bukti.
+
+• Langkah pertama adalah menghitung kombinasi-r dari n, yaitu C(n,r). 
+
+
+• Langkah kedua adalah mengurutkan r unsur tersebut, yaitu r!.
+
+ Dengan demikian
+ 
+ 
+Pembuktian dilakukan dengan menghitung permutasi dari n unsur yang berbeda dengan cara berikut ini.
+
+\includegraphics[width = 12cm, height= 6cm]{Pictures/herlin7.png}
+
+seperti yang diinginkan
+
+Gunakan Teorema 3.3 untuk menentukan kombinasi-3 dari 5 huruf yang berbeda, misalnya ABCDE.
+
+
+Karena r = 3 dan n = 5 maka kombinasi-3 dari 5 huruf ABCDE adalah
+
+\includegraphics[width = 12cm, height= 4cm]{Pictures/herlin8.png}
+
+
+Jadi banyaknya kombinasi-3 dari 5 huruf ABCDE adalah 10.
+
+
+Contoh
+
+Berapa banyak cara sebuah panitia yang terdiri dari 4 orang bisa dipilih dari 6 orang
+
+
+Karena panitia yang terdiri dari 4 orang merupakan susunan yang tidak terurut, maka masalah ini merupakan kombinasi-4 dari 6 unsur yang tersedia. Sehingga dengan mengunakan Teorema 3.3 dimana n = 6 dan r = 4 diperoleh: 
+
+
+\includegraphics[width = 12cm, height= 4cm]{Pictures/herlin9.png}
+
+Jadi terdapat 15 cara untuk membentuk sebuah panitia yang terdiri dari 4 orang bisa dipilih dari 6 orang.
+
+Contoh :
+
+Berapa banyak cara sebuah panitia yang terdiri dari 2 mahasiswa dan 3 mahasiswi yang bisa dipilih dari 5 mahasiswa dan 6 mahasiswi?
+
+Pertamai, memilih 2 mahasiswa dari 5 mahasiswa yang ada, yaitu:
+
+\includegraphics[width = 12cm, height= 4cm]{Pictures/herlin10.png}
+
+Kedua, memilih 3 mahasiswi dari 6 mahasiswi yang ada, yaitu:
+
+
+\includegraphics[width = 12cm, height= 4cm]{Pictures/herlin11.png}
+
+Sehingga terdapat 10.20 = 200 cara untuk membentuk sebuah panitia yang terdiri dari 2 mahasiswa dan 3 mahasiswi yang bisa dipilih dari 5 mahasiswa dan 6 mahasiswi?
+
+Kalau pada pembahasan permutasi sebelumnya unsur-unsur yang diurutkan berbeda, pada bagian ini akan dibahas permutasi yang digeneralisasikan dengan membolehkan pengulangan unsur-unsur yang akan diurutkan, dengan kata lain unsur-unsurnya boleh sama.
+
+
+
+Misalkan kita akan mengurutkan huruf-huruf dari kata KAKIKUKAKU. Karena huruf-huruf pada kata tersebut ada yang sama, maka banyaknya permutasi bukan 10!, tetapi kurang dari 10!.
+
+
+Untuk mengurutkan 10 huruf pada kata KAKIKUKAKU dapat dilakukan dengan cara:
+
+Kalau pada pembahasan permutasi sebelumnya unsur-unsur yang diurutkan berbeda, pada bagian ini akan dibahas permutasi yang digeneralisasikan dengan membolehkan pengulangan unsur-unsur yang akan diurutkan, dengan kata lain unsur-unsurnya boleh sama.
+Misalkan kita akan mengurutkan huruf-huruf dari kata KAKIKUKAKU. Karena huruf-huruf pada kata tersebut ada yang sama, maka banyaknya permutasi bukan 10!, tetapi kurang dari 10!.
+Untuk mengurutkan 10 huruf pada kata KAKIKUKAKU dapat dilakukan dengan cara:
+
+-Asumsikan masalah ini dengan 10 posisi kosong yang akan diisi dengana huruf-huruf pada kata KAKIKUKAKU.
+
+-Pertama menempatkan 5 huruf K pada 10 posisi kosong, yang dapat dilkukan dalam c(10,5) cara
+
+-Setelah 5 huruf k ditempatkan, maka terdapat 10-5 =5 posisi kosong
+
+-Berikutnya adlah menempatkan 2 huruf A pada 5 posisi kosong, yang dapat dilakukan dalam c(5,2) cara. b begitu 2huruf A ditempatkan, terdapat C(3,2) cara untuk menempatkan 2 huruf A ditempatkan, terdapat C(3,2) cara untuk menempatkan 2 huruf U pada 3 posisi kosong yang ada
+
+
+- Akhirnya terdapat C(1,1) cara untuk menempatkan 1 huruf I pada 1 posisi kosong yang tersisa
+
+ 
+\includegraphics[width = 12cm, height= 4cm]{Pictures/herlin11.png}
+
+Jadi banyaknya cara untuk mengurutkan huruf-huruf dari kata KAKIKUKAKU adalah 7560.
+
+Secara umum banyaknya permutasi dari obyek yang mempunyai beberapa unsur sama dapat dijabarkan seperti pada teorema berikut ini.
+
+TEOREMA
+
+Misalkan X merupakan sebuah barisan yang mempunyai n unsur, dimana terdapat n1 unsur yang sama untuk jenis 1, n2 unsur yang sama untuk jenis 2 dan seterusnya sampai nt unsur yang sama untuk jenis t. Banyaknya permutasi dari barisan X adalah
+
+\includegraphics[width = 12cm, height= 6cm]{Pictures/herlin12.png}
+
 %------------------------------------------------
 
 \section{Notations}\index{Notations}
