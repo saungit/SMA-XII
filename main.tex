@@ -3189,9 +3189,6 @@ sebagai berikut:
 \includegraphics[width = 8cm, height= 2cm]{Pictures/14reska.png}
 
 
-
-
-
 \section{Ukuran Pemusatan Data}\index{Ukuran Pemusatan Data}
 
 Ukuran pemusatan data disebut juga sembarang ukuran yang menunjukkan pusat sekumpulan data, yang telah diurutkan dari angka yang terkecil sampai terbesar atau sebaliknya dari angka yang terbesar sampai terkecil. Beberapa fungsi dari ukuran pemusatan data adalah untuk membandingkan dua data atau contoh, karena sangat sulit untuk membandingkan banyaknya anggota dari masing-masing anggota populasi atau banyaknya anggota data contoh. Nilai ukuran pemusatan ini dibuat sehingga dapat mewakili seluruh nilai pada data yang bersangkutan.
@@ -3229,69 +3226,6 @@ $\bar x$ = nilai rata-rata sampel
 
 $\mu$ = nilai rata-rata populasi
 
-\subsection{Distribusi frekuensi}\index{Theorems!Several Equations}
-Rata-rata yang dihitung berdasarkan data yang sudah ditata dalam bentuk tabel distribusi frekuensi dan dapat ditentukan dengan menggunakan formula / rumus rumus yang sama dengan formula untuk menghitung nilai rata-rata dari data yang sudah dikelompokkan atau data yang terdistribusi, dengan rumus sebagai berikut:
-
-\begin{theorem}[Mean]
-rumus mencari nilai distribusi frekuensi:
-\begin{align}
-& \bar{X} = \frac{\sum f_{i}x_{i}}{\sum f_{i}} 
-\end{align}
-\end{theorem}
-
-Keterangan
- 
-$ \sum $ = lambang penjumlahan semua gugus data
-
-$ f_{i} $ = frekuensi data ke-i
-
-$ \bar x $= nilai rata-rata sampel
-
-%------------------------------------------------
-
-\section{Median}\index{Median}
-
-Median merupakan nilai tengah dari sekumpulan data yang telah diurutkan dari angka terkecil sampai ke angka terbesar. Median ditentukan berdasarkan jumlah data, dengan jumlah data yang ganjil maka mediannya memiliki nilai tengah dari data yang telah diurutkan, dan dengan jumlah data genap maka mediannya adalah mean / rataan dari dua bilangan yang ditengah data yang sudah diurutkan
-
-\begin{theorem}[Mean]
-rumus mencari nilai rata-rata:
-\begin{align}
-untuk n ganjil\\
-& Me =x_{\frac{1}{2}(n+1)} \\
-Untuk n genap\\
-& Me =\frac{x_{\frac{n}{2}}+x_{\frac{n}{2}+1}}{2}
-\end{align}
-\end{theorem}
-
-Keterangan 
-
-$x_{\frac{n}{2}}$ = data pada urutan ke-$\frac{n}{2}$ setelah diurutkan
-
-
-\section{Modus}\index{Modus}
-
-Modus adalah data yang sering muncul atau data yang memiliki jumlah frekuensi paling banyak. Sebuah data dapat dikatakan tidak memiliki modus ketika seluruh data yang muncul memiliki frekuensi yang sama atau dapat disebut sebuah data memiliki modus lebih dari satu.
-Untuk data yang ditampilkan dalam bentuk tabel distribusi frekuensi berkelompok, dapat digunakan menentukan letak modus dengan cara melihat kelas interval yang mempunyai frekuensi paling besar.Bila data mempunyai satu modus dapat disebut unimodal dan data yang memiliki dua modus disebut bimodal, sedangkan jika data mempunyai modus yang lebih dari dua disebut multimodal. Modus dapat dilambangkan dengan Mo
-
-\begin{theorem}[Mean]
-rumus mencari nilai rata - rata:
-\begin{align}
-untuk n ganjil\\
-& Mo = T_{b}+(\frac{s_{1}}{s_{1}+s_{2}})i
-\end{align}
-\end{theorem}
-
-Keterangan 
-
-$Mo$ = Modus
-
-$T_{b}$ = Tepi bawah dari kelas modus
-
-$s_{1}$ = Selisih frekuensi kelas modus dengan frekuensi kelas sebelum kelas modus
-
-$s_{2}$ = Selisih frekuensi kelas modus dengan frekuensi kelas sesudah kelas modus
-
-$i$ = panjang kelas interval
 
 \subsection{Rata-Rata Hitung (Mean/Arhitmetic Mean)}\index{Theorems!Several Equations}
 
@@ -3368,13 +3302,13 @@ Rataan hitung nilai tersebut adalah 64,6.
 
 Untuk data daftar distribusi frekuensi kelompok rumus yang digunakan sama dengan data daftar distribusi frekuensi tunggal yaitu $\overline{x} = \frac{\sum f_{i}\sum x_{i}}{\sum x_{i}}$ . Hanya saja, karena ada pengelompokan kelas maka $\sum x_{i}$ yang dirumus merupakan titik tengah dari kelas tersebut.$\frac{batas\;atas + batas\;bawah}{2}$
 
-Contoh: tabel nilai ujian 80 Mahasiswa (I)
+Contoh: 
 
 \begin{table}[h]
 \centering
 \begin{tabular}{l l l l}
 \toprule
-\textbf{Kelas} & \textbf{$x_{i}$} & \textbf{$f_{i}$} & \textbf{$f_{i}x_{i}$}\\
+\textbf{Kelas} & \textbf{$f_{i}$} & \textbf{$x_{i}$} & \textbf{$f_{i}x_{i}$}\\
 \midrule
 31-40 & 1 & 35,5 & 35,5 \\
 41-50 & 2 & 45,5 & 91 \\
@@ -3383,9 +3317,10 @@ Contoh: tabel nilai ujian 80 Mahasiswa (I)
 71-80 & 25 & 75,5 & 1887,5\\
 81-90 & 20 & 85,5 & 1710\\
 91-100 & 18 & 95,5 & 1146\\
+Jumlah & 80 & - & 6130 \\
 \bottomrule
 \end{tabular}
-\caption{Nilai Ujian}
+\caption{tabel nilai ujian 80 Mahasiswa (I)}
 \end{table}
 
 Dari tabel, dapat kita lihat $\sum f_{i}x_{i}$  = 6130 dan $\sum f_{i}$  = 80. Sehingga:
@@ -3401,7 +3336,715 @@ Untuk mencari rataan hitung data distribusi frekuensi kelompok dapat digunakan c
 	Titik tengah yang nilainya kurang dari x0 berturut-turut diberi harga-harga sandi c = -1, c = -2, c = -3, dan seterusnya.
 	Titik tengah yang nilainya lebih dari x0 berturut-turut diberi harga-harga sandi c = +1, c = +2, c = +3, dan seterusnya.
 	p merupakan panjang kelas dimana setiap kelas memiliki panjang kelas yang sama.
-Gunakan rumus
+Gunakan rumus:
+
+$\overline{x} = x_{0} + p(\frac{\sum f_{i}c_{i}}{f_{i}})$
+
+
+Contoh: 
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l l l}
+\toprule
+\textbf{Kelas} & \textbf{$f_{i}$} & \textbf{$x_{i}$} & \textbf{$c_{i}$} & \textbf{$f_{i}c_{i}$}\\
+\midrule
+31-40 & 1 & 35,5 & -4 & -4\\
+41-50 & 2 & 45,5 & -3 & -6\\
+51-60 & 5 & 55,5 & -2 & -10\\
+61-70 & 15 & 65,6 & -1 & -15\\
+71-80 & 25 & 75,5 & 0 & 0\\
+81-90 & 20 & 85,5 & 1 & 20\\
+91-100 & 12 & 95,5 & 2 & 24\\
+Jumlah & 80 & - & - & 9 \\ 
+\bottomrule
+\end{tabular}
+\caption{tabel nilai ujian 80 Mahasiswa (II)}
+\end{table}
+
+Dari tabel, dapat kita lihat $\sum f_{i}c_{i}$  = 9 dan $\sum f_{i}$  = 80. Panjang kelasnya adalah 10. Sehingga:
+
+$\overline{x} = x_{0} + p(\frac{\sum f_{i}c_{i}}{f_{i}}) = 75,5 + 10\frac{9}{80} = 76,62 $
+
+\subsection{Rata-Rata Harmonik}
+
+Rata-rata harmonik merupakan kebalikan dari rataan hitung dengan bilangannya merupakan kebalikan dari kumpulan bilangan tersebut. Dalam seperangkat data
+$ x_{1},x_{2},x_{3}.....x_{n} $ Maka rataan harmoniknya dirumuskan sebagai berikut:
+
+\begin{theorem}[Mean]
+rumus mencari nilai rata-rata:
+\begin{align}
+& H = \frac{n}{\sum (\frac{1}{x_{i}})} 
+\end{align}
+\end{theorem}
+
+Keterangan :
+
+H = Rataan Harmonik 
+
+n = Banyak Data
+
+$ x_{i} $ = data ke-i
+
+Hitung rata-rata harmonik untuk kumpulan data: 3, 5, 6, 6, 7, 10, 12!
+$ $
+$ H = \frac{n}{\sum (\frac{1}{x_{i}})} $
+$ $
+$H = \frac{7}{\frac{1}{3}+\frac{1}{5}+\frac{1}{6}+\frac{1}{6}+\frac{1}{7}+\frac{1}{10}+\frac{1}{12}} = 5,87$
+$ $
+Untuk data dalam daftar distribusi frekuensi digunakan rumus:
+
+
+\begin{theorem}[Mean]
+rumus mencari nilai rata-rata:
+\begin{align}
+& H = \frac{\sum f_{i}}{\sum (\frac{f_{i}}{x_{i}})}
+\end{align}
+\end{theorem}
+
+Keterangan :	
+
+H = Rataan Harmonik
+
+$ x_{i} $ = Titik Tengah Kelas
+
+$ f_(i) $ = Frekuensi yang bersesuaian dengan $x_{i}$
+
+Contoh: 
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l l}
+\toprule
+\textbf{Kelas} & \textbf{$f_{i}$} & \textbf{$x_{i}$} & \textbf{$\frac{f_{i}}{x_{i}}$}\\
+\midrule
+31-40 & 1 & 35,5 & 0,0282 \\
+41-50 & 2 & 45,5 & 0,044 \\
+51-60 & 5 & 55,5 & 0,0901\\
+61-70 & 15 & 65,6 & 0,229\\
+71-80 & 25 & 75,5 & 0,3311\\
+81-90 & 20 & 85,5 & 0,2339\\
+91-100 & 18 & 95,5 & 0,1256\\
+Jumlah & 80 & - & 1,0819 \\
+\bottomrule
+\end{tabular}
+\caption{tabel nilai ujian 80 Mahasiswa (III)}
+\end{table}
+
+Dari tabel, dapat kita lihat $\sum \frac{f_{i}}{x_{i}}$  = 1,0819 dan $\sum f_{i}$  = 80. Sehingga:
+$ $
+$ H = \frac{\sum f_{i}}{\sum (\frac{f_{i}}{x_{i}})} = \frac{80}{1,0819} = 73,91 $
+$ $
+Rataan harmonik nilai ujiannya adalah 73,91.
+
+Dari tabel nilai ujian 80 mahasiswa (I – IV), telah dihitung nilai rataan hitung, rataan ukur dan rataan harmoniknya yaitu:
+
+$\overline{x}$ = 76,62
+
+G = 75,37
+
+H = 73,94
+
+
+\subsection{Rata-Rata Ukur(Geometric Mean)}
+
+Jika perbandingan tiap dua data berurutan tetap atau hampir tetap, untuk mencari rata-ratanya lebih baik dipakai rata-rata ukur daripada rata-rata hitung.
+
+Untuk data $ x_{1},x_{2},x_{3},......,x_{n} $ Maka :
+
+\begin{theorem}[Mean]
+Geometri ukur :
+\begin{align}
+& G = \sqrt[n]{x_{1}.x_{2}.x_{3}......x_{n}} 
+\end{align}
+\end{theorem}
+
+
+Keterangan :
+
+G = Rataan Ukur
+
+n = Banyaknya Data
+
+$ x_{i} $ = data ke -i
+
+Hitunglah rata-rata ukur 3 buah data berikut: $x_{1} = 2, x_{2} = 4 dan x_{3} = 8! $ 
+$ 
+$
+$ G= \sqrt[3]{x_{1}.x_{2}.x_{3}} = \sqrt[3]{2.4.8} = 4 $
+$ 
+$
+Untuk bilangan-bilangan bernilai besar, lebih baik digunakan logaritma yang dirumuskan sebagai berikut :
+$ 
+$
+$\log G = \frac{\sum\log x_{1}}{n}$
+$ 
+$
+
+Hitunglah rata-rata ukur 3 buah data berikut: $x_{1} = 2, x_{2} = 4 dan x_{3} = 8! $
+
+$\log G = \frac{\log 2 + \log 4 + \log 8}{3} $
+
+$\log G = \frac{0,301+0,6021+0,9031}{3}$
+
+$\log G = 0,6021$
+
+$\log G = \log 4 $
+
+$G = 4 $
+
+Untuk data yang telah disusun dalam daftar distribusi frekuensi, digunakan rumus sebagai berikut:
+
+\begin{theorem}[Mean]
+Geometri ukur :
+\begin{align}
+& \log G = \frac{\sum f_{i}\log x_{i}}{\sum f_{i}} 
+\end{align}
+\end{theorem}
+
+Keterangan :
+
+G = Rataan Ukur
+
+$x_{i} $ = Titik Tengah Kelas
+
+$f_{i} $ = frekuensi yang bersesuaian dengan $ x_{i}$
+
+Contoh : 
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l l l}
+\toprule
+\textbf{Kelas} & \textbf{$f_{i}$} & \textbf{$ x_{i}$} & \textbf{$\log x_{i}$} & \textbf{$f_{i} \log x_{i}$}\\
+\midrule
+31-40 & 1 & 35,5 & 1,5502 & 1,5502\\
+41-50 & 2 & 45,5 & 1,658 & 3,316\\
+51-60 & 5 & 55,5 & 1,7443 & 8,7215\\
+61-70 & 15 & 65,6 & 1,8162 & 27,243\\
+71-80 & 25 & 75,5 & 1,8779 & 46,9475\\
+81-90 & 20 & 85,5 & 1,932 & 38,64\\
+91-100 & 12 & 95,5 & 1,98 & 23,76\\
+Jumlah & 80 & - & - &150,1782\\
+\bottomrule
+\end{tabular}
+\caption{tabel nilai ujian 80 mahasiswa (IV)}
+\end{table}
+
+Dari tabel, dapat kita lihat $\sum f_{i} \log x_{i}$  = 150,1782 dan $\sum f_{i}$  = 80.
+$ 
+$
+$ \log G = \frac{\sum f_{i}\log x_{i}}{\sum f_{i}}$
+$ 
+$
+$ \log G = \frac{150,1782}{80} = 1,8772$
+$ 
+$
+$ G = 75,37 $
+$ 
+$
+Nilai ujian itu memiliki rata-rata ukur 75,37.
+
+
+\subsection{Distribusi frekuensi}\index{Theorems!Several Equations}
+Rata-rata yang dihitung berdasarkan data yang sudah ditata dalam bentuk tabel distribusi frekuensi dan dapat ditentukan dengan menggunakan formula / rumus rumus yang sama dengan formula untuk menghitung nilai rata-rata dari data yang sudah dikelompokkan atau data yang terdistribusi, dengan rumus sebagai berikut:
+
+\begin{theorem}[Mean]
+rumus mencari nilai distribusi frekuensi:
+\begin{align}
+& \bar{X} = \frac{\sum f_{i}x_{i}}{\sum f_{i}} 
+\end{align}
+\end{theorem}
+
+Keterangan
+ 
+$ \sum $ = lambang penjumlahan semua gugus data
+
+$ f_{i} $ = frekuensi data ke-i
+
+$ \bar x $= nilai rata-rata sampel
+
+%------------------------------------------------
+
+\section{Median}\index{Median}
+
+Median merupakan nilai tengah dari sekumpulan data yang telah diurutkan dari angka terkecil sampai ke angka terbesar. Median ditentukan berdasarkan jumlah data, dengan jumlah data yang ganjil maka mediannya memiliki nilai tengah dari data yang telah diurutkan, dan dengan jumlah data genap maka mediannya adalah mean / rataan dari dua bilangan yang ditengah data yang sudah diurutkan
+
+\begin{theorem}[Median]
+rumus mencari nilai rata-rata:
+\begin{align}
+untuk n ganjil\\
+& Me =x_{\frac{1}{2}(n+1)} \\
+Untuk n genap\\
+& Me =\frac{x_{\frac{n}{2}}+x_{\frac{n}{2}+1}}{2}
+\end{align}
+\end{theorem}
+
+Keterangan 
+
+$x_{\frac{n}{2}}$ = data pada urutan ke-$\frac{n}{2}$ setelah diurutkan
+
+Untuk mencari median pada daftar distribusi frekuensi kelompok maka lakukan langkah berikut:
+•	Temukan letak kelas median dengan cara melihat kelas mana yang mencapai setengah dari jumlah frekuensi.
+•	Hitung batas bawah kelas yang disimbolkan b
+•	Hitung panjang kelas yang disimbolkan p
+•	Tambahkan kolom tabel frekuensi kumulatif karena dalam rumus akan ada frekuensi kumukatif sebelum kelas median yang disimbolkan fk
+•	Perhatikan frekuensi pada kelas median yang disimbolkan fm
+•	Rumus yang digunakan yaitu:
+
+$M_{e} = b + p(\frac{\frac{n}{2}-f_{k}}{f_{m}})$
+
+Contoh: 
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l}
+\toprule
+\textbf{Kelas} & \textbf{$f_{i}$} & \textbf{$f_{k}$}\\
+\midrule
+31-40 & 1 & 1\\
+41-50 & 2 & 3\\
+51-60 & 5 & 8\\
+61-70 & 15 & 23\\
+71-80 & 25 & 48\\
+81-90 & 20 & 68\\
+91-100 & 18 & 80\\
+Jumlah & 80 & - \\
+\bottomrule
+\end{tabular}
+\caption{tabel nilai ujian 80 Mahasiswa (I)}
+\end{table}
+
+•	Kelas median: 71 – 80 
+•	b = 70,5
+•	p = 10
+•	fk = 23
+•	fm = 25
+
+$M_{e} = b + p(\frac{\frac{n}{2}-f_{k}}{f_{m}}) = 70,5 + 10(\frac{40-23}{25}) = 77,3 $
+
+Jadi,Mediannya adalah 77,3
+
+
+\section{Modus}\index{Modus}
+
+Modus adalah data yang sering muncul atau data yang memiliki jumlah frekuensi paling banyak. Sebuah data dapat dikatakan tidak memiliki modus ketika seluruh data yang muncul memiliki frekuensi yang sama atau dapat disebut sebuah data memiliki modus lebih dari satu.
+Modus merupakan nilai yang paling banyak muncul dalam suatu kumpulan data atau bila dilihat dalam data berbentuk tabel modus merupakan nilai dengan frekuensi terbanyak dalam suatu data.
+Untuk data yang ditampilkan dalam bentuk tabel distribusi frekuensi berkelompok, dapat digunakan menentukan letak modus dengan cara melihat kelas interval yang mempunyai frekuensi paling besar.Bila data mempunyai satu modus dapat disebut unimodal dan data yang memiliki dua modus disebut bimodal, sedangkan jika data mempunyai modus yang lebih dari dua disebut multimodal. Modus dapat dilambangkan dengan Mo
+
+\begin{theorem}[Modus]
+rumus mencari nilai rata-rata:
+\begin{align}
+untuk n ganjil\\
+& Mo = T_{b}+(\frac{s_{1}}{s_{1}+s_{2}})i
+\end{align}
+\end{theorem}
+
+Keterangan 
+
+$Mo$ = Modus
+
+$T_{b}$ = Tepi bawah dari kelas modus
+
+$s_{1}$ = Selisih frekuensi kelas modus dengan frekuensi kelas sebelum kelas modus
+
+$s_{2}$ = Selisih frekuensi kelas modus dengan frekuensi kelas sesudah kelas modus
+
+$i$ = panjang kelas interval
+
+Berapakah modus dari data 12, 34, 14, 34, 28, 34, 34, 28, 14 !
+
+Bila diubah dalam bentuk tabel maka:
+
+Contoh :
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l}
+\toprule
+\textbf{$x_{i}$} & \textbf{$f_{i}$}\\
+\midrule
+12 & 1 \\
+14 & 2 \\
+28 & 2 \\
+34 & 4 \\
+\bottomrule
+\end{tabular}
+\caption{Data Frekuensi Tunggal}
+\end{table}
+
+Modus dari data tersebut adalah 34
+
+Untuk menentukan modus dalam data yang sudah disusun dalam bentuk daftar distribusi frekuensi kelompok lakukan langkah-langkah berikut:
+•	Tentukan kelas modus yakni kelas yang memiliki frekuensi terbesar dibandingkan kelas-kelas lainnya
+•	Hitung panjang kelas yang disimbolkan p
+•	Hitung batas bawah kelas yang disimbolkan b
+•	Frekuensi kelas modus dikurangi frekuensi kelas dengan titik tengah yang kurang dari (sebelum) titik tengah kelas modus yang disimbolkan d1
+•	Frekuensi kelas modus dikurangi frekuensi kelas dengan titik tengah yang lebih dari (sesudah) titik tengah kelas modus yang disimbolkan d2
+•	Masukkan nilai yang telah dihitung kedalam rumus:
+
+$M_{o} = b + p(\frac{d_{1}}{d_{1}+d_{2}})$
+
+Contoh: 
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l}
+\toprule
+\textbf{Kelas} & \textbf{$f_{i}$} & \textbf{$x_{i}$}\\
+\midrule
+31-40 & 1 & 35,5\\
+41-50 & 2 & 45,5\\
+51-60 & 5 & 55,5\\
+61-70 & 15 & 65,6\\
+71-80 & 25 & 75,5\\
+81-90 & 20 & 85,5\\
+91-100 & 18 & 95,5\\
+Jumlah & 80 & - \\
+\bottomrule
+\end{tabular}
+\caption{tabel nilai ujian 80 Mahasiswa (I)}
+\end{table}
+
+Kelas modus = 71 – 80 
+b = 70,5
+p = 10
+d1 = 25 – 15 = 10
+d2 = 25 – 20 = 5
+
+$M_{o} = b + p(\frac{d_{1}}{d_{1}+d_{2}})$
+
+$M_{o} = 70,5 + 10(\frac{10}{10 + 5}) = 77,17$
+
+Modus dari tabel tersebut adalah 77,17.
+
+
+\section{Ukuran Letak Data}\index{Ukuran Letak Data}
+Ukuran letak data biasanya dinyatakan dalam bentuk fraktil. Fraktil merupakan nilai-nilai yang membagi seperangkat data yang telah terurut menjadi beberapa bagian yang sama
+
+Ukuran letak data terdiri dari:
+•	Kuartil
+•	Desil
+•	Persentil
+
+1.	Kuartil
+Jika sekumpulan data dibagi menjadi empat bagian yang sama banyak, sesudah disusun menurut urutan nilainya, maka bilangan pembaginya disebut kuartil. 
+
+Dalam kuartil dikenal istilah kuartil pertama (Q1), kuarti kedua (Q2) / median, kuartil ketiga (Q3).
+
+Untuk menentukan kuartil pada data tunggal, kita harus mempertimbangkan banyaknya data (n) terlebih dahulu. Penghitungan kuartil tergantung dari kondisi banyaknya data tersebut. 
+
+Cara menentukan kuartil sebagai berikut.
+Urutkan data dari yang terkecil sampai dengan yang terbesar.
+Tentukan Q2 atau median.
+Tentukan Q1 dengan membagi data di bawah Q2 menjadi dua bagian yang sama besar.
+Tentukan Q3 dengan membagi data di atas Q2 menjadi dua bagian sama besar.
+
+Untuk data tunggal dengan banyak data ganjil. Maka:
+-	Urutkan data terlebih dahulu, kemudian cari letak kuartil dengan rumus
+$ 
+$
+$ Q_{i} = \frac{i(n+1)}{4} $
+$ 
+$
+-	Barulah dapat ditentukan nilai kuartilnya
+
+Contoh soal:
+Tentukan kuartil 1, 2 dan 3 dari data berikut: 350, 400, 450, 550, 600, 600, 600, 650, 700 dan 750!
+Penyelesaian:
+
+$Q_{i} = \frac{(10+1)}{4} = 2\frac{3}{4}$ 
+
+Artinya $Q_{1}$ terletak diantara data kedua dan data ketiga. Dengan pendekatan datum interpolasi berikut.
+$Q_{1} = x_{2} + \frac{3}{4}(x_{3} - x_{2}) = 400 +\frac{1}{4}(450 -400) = 437,5$ 
+
+$Q_{i} = \frac{2(10+1)}{4} = 5\frac{1}{2}$
+
+Artinya $Q_{2}$ terletak diantara data kelima dan data keenam. Dengan pendekatan datum interpolasi berikut.
+$Q_{2} = x_{5} + \frac{1}{4}(x_{6} - x_{5}) = 600 +\frac{1}{5}(600 -600) = 600$
+
+$Q_{i} = \frac{3(10+1)}{4} = 8\frac{1}{4}$
+
+Artinya $Q_{3}$ terletak diantara data kedelapan dan data kesembilan. Dengan pendekatan datum interpolasi berikut.
+$Q_{3} = x_{8} + \frac{1}{4}(x_{9} - x_{8}) = 650 +\frac{1}{4}(700 -650) = 562,5$
+
+Untuk data dalam daftar distribusi frekuensi kelompok, maka:
+•	Temukan kelas kuartil dengan rumus:
+$Q_{i} = \frac{i(n+1)}{4}$ dengan i = 1,2,3
+•	Hitung batas bawah kelas yang disimbolkan b
+•	Hitung panjang kelas yang disimbolkan p
+•	Tambahkan kolom tabel frekuensi kumulatif karena dalam rumus akan ada frekuensi kumukatif sebelum kelas kuartil yang disimbolkan fk
+•	Perhatikan frekuensi pada kelas kuartil yang disimbolkan fQ
+•	Rumus yang digunakan yaitu:
+
+$Q_{i} = b + p(\frac{\frac{i_{n}}{4}-f_{k}}{f_{q}})$
+
+Contoh : Tentukan kuartil 3 dari data pada tabel berikut!
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l}
+\toprule
+\textbf{Nilai} & \textbf{$f_{i}$} & \textbf{$f_{k}$}\\
+\midrule
+31-40 & 1 & 1  \\
+41-50 & 2 & 3 \\
+51-60 & 5 & 8 \\
+61-70 & 15 & 23 \\
+71-80 & 25 & 48 \\
+81-90 & 20 & 68 \\
+91-100 & 12 & 80 \\
+Jumlah & 80 & - \\
+\bottomrule
+\end{tabular}
+\caption{Table caption}
+\end{table}
+
+
+$Q_{3} = \frac{3(80+1)}{4} = 60,75$
+•	Kelas kuartil: 81 – 90 
+•	b = 80,5
+•	p = 10
+•	fk = 48
+•	fQ = 20
+
+$Q_{i} = b + p(\frac{\frac{i_{n}}{4}-f_{k}}{f_{q}}) = 80,5 +10 (\frac{60-48}{20}) = 86,5$
+
+Jadi, Kuartil ketiganya adalah 86,5.
+
+\section{CONTOH SOAL DAN PEMBAHASAN}\index{CONTOH SOAL DAN PEMBAHASAN}
+1. Data Tabel Frekuensi
+\begin{table}[h]
+\centering
+\begin{tabular}{l l}
+\toprule
+\textbf{Kelas} & \textbf{Frekuensi}\\
+\midrule
+20-29 & 3  \\
+30-39 & 7 \\
+40-49 & 8 \\
+50-59 & 12 \\
+60-69 & 9 \\
+70-79 & 6 \\
+80-89 & 5 \\
+\bottomrule
+\end{tabular}
+\caption{Frukuensi}
+\end{table}
+Nilai Modus dati data pada tabel...
+
+a. 49,5 - $ \frac{40}{7}$
+
+b. 49,5 - $ \frac{36}{7}$
+
+c. 49,5 + $ \frac{36}{7}$
+
+d. 49,5 + $ \frac{40}{7}$
+
+e. 49,5 + $ \frac{48}{7}$
+
+
+Jawaban :
+\begin{table}[h]
+\centering
+\begin{tabular}{l l}
+\toprule
+\textbf{Kelas} & \textbf{Frekuensi}\\
+\midrule
+20-29 & 3  \\
+30-39 & 7 \\
+40-49 & 8 \\
+50-59 & 12 \\
+60-69 & 9 \\
+70-79 & 6 \\
+80-89 & 5 \\
+\bottomrule
+\end{tabular}
+\caption{Frukuensi}
+\end{table}
+
+Diketahui :
+
+$L_{0}$ = 50-0,5=49,5
+
+$d_{1}$ = 12-8=4
+
+$d_{2}$ = 12-9=3
+
+$M_{0} = L_{0} + \frac{d_{1}}{d_{1} + d_{2}}.c $
+
+$M_{0} = 49,5 + \frac{4}{4 + 3}.10 $
+
+$M_{0} = 49,5 + \frac{40}{7}$
+
+JAWABAN = D
+
+2. Rata rat nilai tes matematika 10 siswa adalah 65. Jika ditambah 5 siswa lainnya maka rata rata nya menjadi 70 nilai rata rata 5 siswa yang ditambahkan adalah...
+
+
+a.75
+
+b.78
+
+c.80
+
+d.82
+
+e.85
+
+JAWABAN 
+
+$\overline{x}_{gab}= \frac{n_{1}.\overline{x}_{1} + n_{2}.\overline{x}_{2}}{n_{1} + n_{2}}$
+
+70 = $\frac{10.65 + 5.\overline{x}_{2}}{10+5} $
+
+70 = $\frac{650 + 5.\overline{x}_{2}}{15} $
+
+1050 = 650 + 5.$ \overline{x}_{2}$
+
+400 = 5.$\overline{x}_{2}$
+
+$\overline{x}_{2}$ = 80
+
+JAWABAN = C
+
+3. Data Nilai Matematika kelas XII
+\begin{table}[h]
+\centering
+\begin{tabular}{l l}
+\toprule
+\textbf{Kelas} & \textbf{Frekuensi}\\
+\midrule
+51-60 & 5  \\
+61-70 & 12 \\
+71-80 & 15\\
+81-90 & 9 \\
+91-100 & 3 \\
+\bottomrule
+\end{tabular}
+\caption{Frukuensi}
+\end{table}
+Nilai Modus dati data pada tabel...
+
+
+a.80,6
+
+b.81,6
+
+c.82,6
+
+d.81,5
+
+e.80,5
+
+JAWABAN 
+
+$Q_{3} = T_{b} + (\frac{\frac{3}{4}.n + f_{k3}}{f_{3}})i$
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l}
+\toprule
+\textbf{Kelas} & \textbf{Frekuensi}\\
+\midrule
+51-60 & 5  \\
+61-70 & 12 \\
+71-80 & 15\\
+81-90 & 9 \\
+91-100 & 3 \\
+\bottomrule
+\end{tabular}
+\caption{Frukuensi}
+\end{table}
+
+$\frac{3}{4}.n = \frac{3}{4}.44 = 33$
+
+Kelas :
+$Q_{3}$ = 81 - 90
+$T_{b}$ = 81 - 0,5 = 80,5
+$f_{k3}$ = 32
+$f_{3}$ = 9
+i = 61 - 51 = 10
+
+$ Q_{3} = 80,5 + (\frac{33-32}{9}).10$
+
+$ Q_{3} = 80,5 + (\frac{1}{9}).10$
+
+$Q_{3} = 80,5 + 1,1 $
+
+$Q_{3} = 81,6$
+
+JAWABAN = B
+
+4. Dibawah ini data fuekensi PT Maju Terus
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l}
+\toprule
+\textbf{Kelas} & \textbf{Frekuensi}\\
+\midrule
+20-26 & 2  \\
+27-33 & 8 \\
+34-40 & 13\\
+41-47 & 11 \\
+48-54 & 5 \\
+55-61 & 1 \\
+\bottomrule
+\end{tabular}
+\caption{Frukuensi}
+\end{table}
+
+Rata Rata umur karyawan...
+
+a.40,1
+
+b.39,4
+
+c.39,1
+
+d.38,4
+
+e.38,1
+
+JAWABAN 
+
+
+Rata Rata data Berkelompok :
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l l l}
+\toprule
+\textbf{Kelas} & \textbf{f} & \textbf{x} & \textbf{d} & \textbf{fd}\\
+\midrule
+20-26 & 2 & 23 & -14 & -28\\
+27-33 & 8 & 30 & -7 & -56\\
+34-40 & 13 & 37 & 0 & 0\\
+41-47 & 11 & 44 & 7 & 77\\
+48-54 & 5 & 51 & 14 & 70\\
+55-61 & 1 & 58 & 21 & 21\\
+\bottomrule
+\end{tabular}
+\caption{Frukuensi}
+\end{table}
+
+
+
+
+
+
+Rata rata = $\overline{x}_{s} + \frac{\sum f.d}{\sum f} $
+
+Rata-rata = $ 37 + \frac{84}{40} = 37 + 2,1 = 39,1$
+
+JAWABAN = C
+
+Keterangan :
+rata rata sementara dipilih dari titik tengah kelas yang terletak ditengah atau yang memiliki frekuensi terbesar.
+
+
 
 \chapter{Peluang kejadian majemuk}
 \section{Kejadian Saliing bebas}
@@ -5531,218 +6174,9 @@ sebagai berikut:
 
 \includegraphics[width = 8cm, height= 2cm]{Pictures/14reska.png}
 
+\chapter{Ukuran Pemusatan Data}
 
 
-\section{Ukuran Pemusatan Data}\index{Ukuran Pemusatan Data}
-
-Ukuran pemusatan data disebut juga sembarang ukuran yang menunjukkan pusat sekumpulan data, yang telah diurutkan dari angka yang terkecil sampai terbesar atau sebaliknya dari angka yang terbesar sampai terkecil. Beberapa fungsi dari ukuran pemusatan data adalah untuk membandingkan dua data atau contoh, karena sangat sulit untuk membandingkan banyaknya anggota dari masing-masing anggota populasi atau banyaknya anggota data contoh. Nilai ukuran pemusatan ini dibuat sehingga dapat mewakili seluruh nilai pada data yang bersangkutan.
-
-Ukuran pemusatan yang sering digunakan adalah mean, modus, dan median. Nilai tengah (mean) akan sangat dipengaruh nilai banyaknya data. Median yang sangat beragam sulit dalam penggunaan parameter populasi. Dan modus hanya digunakan untuk data ukuran yang besar.
-
-Salah satu ukuran yang paling penting untuk menggambarkan suatu distribusi data adalah nilai pusat data pengamat. Setiap pengukuran aritmatika yang ditujukan untuk menggambarkan suatu nilai yang mewakili nilai pusat atau nilai sentral dari suatu gugus data (himpunan pengamatan) dikenal sebagai ukuran tendensi sentral. Biasanya Ukuran pemusatan data sering kali digunakan agar data yang diperoleh mudah untuk dipahami oleh siswa. Ukuran pemusatan data debagi menjadi mean yang digunakan untuk mengetahui nilai rata rata pada setiap himpunan angka, median digunakan untuk mengetahui suatu nilai tengah suatu himpunan angka, dan modus adalah data yang sering muncul.
-
-
-%------------------------------------------------
-
-\section{Mean}\index{Mean}
-
-Mean yaitu suatu nilai rata rata dan di dapatkan dari sekumpulan data adalah jumlah seluruh data dibagi banyaknya data. Dengan mengetahui mean suatu data, maka variasi data yang lain akan mudah diperkirakan.atau juga dapat disebut suatu metode yang sering digunakan untuk menggambarkan ukuran suatu data. Mean dapat dihitung dengan menjumlahkan seluruh nilai data pengukuran dan dibagi dengan banyaknya data yang digunakan. Definisi tersebut di nyatakan dengan persamaan sebagai berikut:
-
-\begin{theorem}[Mean]
-rumus mencari nilai rata-rata:
-\begin{align}
-Sampel\\
-& \bar{X}=\frac{x_{1}+x_{2}+x_{3}+......+x_{n}}{n}=\sum_{i=0}^{n}\frac{x_{i}}{n}\\
-Populasi\\
-& \bar{\mu}=\frac{x_{1}+x_{2}+x_{3}+......+x_{n}}{n}=\sum_{i=0}^{n}\frac{x_{i}}{n}
-\end{align}
-\end{theorem}
-
-Keterangan
-
-$\sum$ = lambang penjumlahan semua gugus data pengamatan 
-
-n = banyaknya sampel data 
-
-N = banyaknya data populasi 
-
-$\bar x$ = nilai rata-rata sampel
-
-$\mu$ = nilai rata-rata populasi
-
-\subsection{Distribusi frekuensi}\index{Theorems!Several Equations}
-Rata-rata yang dihitung berdasarkan data yang sudah ditata dalam bentuk tabel distribusi frekuensi dan dapat ditentukan dengan menggunakan formula / rumus rumus yang sama dengan formula untuk menghitung nilai rata-rata dari data yang sudah dikelompokkan atau data yang terdistribusi, dengan rumus sebagai berikut:
-
-\begin{theorem}[Mean]
-rumus mencari nilai distribusi frekuensi:
-\begin{align}
-& \bar{X} = \frac{\sum f_{i}x_{i}}{\sum f_{i}} 
-\end{align}
-\end{theorem}
-
-Keterangan
- 
-$ \sum $ = lambang penjumlahan semua gugus data
-
-$ f_{i} $ = frekuensi data ke-i
-
-$ \bar x $= nilai rata-rata sampel
-
-%------------------------------------------------
-
-\section{Median}\index{Median}
-
-Median merupakan nilai tengah dari sekumpulan data yang telah diurutkan dari angka terkecil sampai ke angka terbesar. Median ditentukan berdasarkan jumlah data, dengan jumlah data yang ganjil maka mediannya memiliki nilai tengah dari data yang telah diurutkan, dan dengan jumlah data genap maka mediannya adalah mean / rataan dari dua bilangan yang ditengah data yang sudah diurutkan
-
-\begin{theorem}[Mean]
-rumus mencari nilai rata-rata:
-\begin{align}
-untuk n ganjil\\
-& Me =x_{\frac{1}{2}(n+1)} \\
-Untuk n genap\\
-& Me =\frac{x_{\frac{n}{2}}+x_{\frac{n}{2}+1}}{2}
-\end{align}
-\end{theorem}
-
-Keterangan 
-
-$x_{\frac{n}{2}}$ = data pada urutan ke-$\frac{n}{2}$ setelah diurutkan
-
-
-\section{Modus}\index{Modus}
-
-Modus adalah data yang sering muncul atau data yang memiliki jumlah frekuensi paling banyak. Sebuah data dapat dikatakan tidak memiliki modus ketika seluruh data yang muncul memiliki frekuensi yang sama atau dapat disebut sebuah data memiliki modus lebih dari satu.
-Untuk data yang ditampilkan dalam bentuk tabel distribusi frekuensi berkelompok, dapat digunakan menentukan letak modus dengan cara melihat kelas interval yang mempunyai frekuensi paling besar.Bila data mempunyai satu modus dapat disebut unimodal dan data yang memiliki dua modus disebut bimodal, sedangkan jika data mempunyai modus yang lebih dari dua disebut multimodal. Modus dapat dilambangkan dengan Mo
-
-\begin{theorem}[Mean]
-rumus mencari nilai rata - rata:
-\begin{align}
-untuk n ganjil\\
-& Mo = T_{b}+(\frac{s_{1}}{s_{1}+s_{2}})i
-\end{align}
-\end{theorem}
-
-Keterangan 
-
-$Mo$ = Modus
-
-$T_{b}$ = Tepi bawah dari kelas modus
-
-$s_{1}$ = Selisih frekuensi kelas modus dengan frekuensi kelas sebelum kelas modus
-
-$s_{2}$ = Selisih frekuensi kelas modus dengan frekuensi kelas sesudah kelas modus
-
-$i$ = panjang kelas interval
-
-\subsection{Rata-Rata Hitung (Mean/Arhitmetic Mean)}\index{Theorems!Several Equations}
-
-Rata-rata merupakan nilai yang mewakili kumpul data yaitu nilai yang kurang dari nilai itu, nilai yang lebih dari nilai itu dan nilai itu sendiri. 
-Contoh:
--	Ani cantik
--	Rina tidak cantik		=      Kesimpulannya rata-rata perempuan itu cantik
--	Dini  sangat cantik          
-Mean dari sekumpulan data adalah jumlah dari kumpulan bilangan dibagi banyak bilangan tersebut. 
-
-Untuk data tunggal seperti: $x_{1}, x_{2}, x_{3}.....x_{n} $. Maka:
-
-\begin{theorem}[Mean]
-rumus mencari nilai rata-rata:
-\begin{align}
-& \overline{x} = \frac{\sum x_{i}}{n}
-\end{align}
-\end{theorem}
-
-Keterangan:
-	 
-$\overline{x}$= Rataan Hitung
-		 
-$n$ = banyak data 
-
-$x_{i}$ = data ke-i
-
-Contoh = Tentukan rata-rata dari nilai siswa sebagai berikut: 70, 69, 45, 80 dan 56!
-
-\begin{table}[h]
-\centering
-\begin{tabular}{l l}
-\toprule
-\textbf{$x_{i}$} & \textbf{$f_{i}$}\\
-\midrule
-70 & 5 \\
-69 & 6 \\
-45 & 3 \\
-80 & 1 \\
-56 & 1 \\
-\bottomrule
-\end{tabular}
-\caption{Data Frekuensi Tunggal}
-\end{table}
-
-$x_{i}$ menyatakan nilai ujian dan $f_{i}$ menyatakan frekuensi untuk nilai $x_{i}$ yang bersesuaian. Untuk mencari rata-rata tabel diatas, akan lebih mudah bila dibuat tabel penolong seperti berikut:
-
-
-$\overline{x} = \frac{\sum f_{i}\sum x_{i}}{\sum x_{i}}$
-
-
-\begin{table}[h]
-\centering
-\begin{tabular}{l l l}
-\toprule
-\textbf{$x_{i}$} & \textbf{$f_{i}$} & \textbf{$f_{i}x_{i}$}\\
-\midrule
-70 & 5 & 350 \\
-69 & 6 & 414\\
-45 & 3 & 135\\
-80 & 1 & 80\\
-56 & 1 & 56\\
-\bottomrule
-\end{tabular}
-\caption{Table caption}
-\end{table}
-
-Dari tabel, dapat kita lihat $\sum f_{i}x_{i}$  = 1035 dan $\sum f_{i}$  = 16. Sehingga:
-
-$ \overline{x} = \frac{\sum f_{i}\sum x_{i}}{\sum x_{i}} = \frac{1035}{16} = 64,6 $
-
-Rataan hitung nilai tersebut adalah 64,6.
-
-
-Untuk data daftar distribusi frekuensi kelompok rumus yang digunakan sama dengan data daftar distribusi frekuensi tunggal yaitu $\overline{x} = \frac{\sum f_{i}\sum x_{i}}{\sum x_{i}}$ . Hanya saja, karena ada pengelompokan kelas maka $\sum x_{i}$ yang dirumus merupakan titik tengah dari kelas tersebut.$\frac{batas\;atas + batas\;bawah}{2}$
-
-Contoh: tabel nilai ujian 80 Mahasiswa (I)
-
-\begin{table}[h]
-\centering
-\begin{tabular}{l l l l}
-\toprule
-\textbf{Kelas} & \textbf{$x_{i}$} & \textbf{$f_{i}$} & \textbf{$f_{i}x_{i}$}\\
-\midrule
-31-40 & 1 & 35,5 & 35,5 \\
-41-50 & 2 & 45,5 & 91 \\
-51-60 & 5 & 55,5 & 277,5\\
-61-70 & 15 & 65,6 & 982,5\\
-71-80 & 25 & 75,5 & 1887,5\\
-81-90 & 20 & 85,5 & 1710\\
-91-100 & 18 & 95,5 & 1146\\
-\bottomrule
-\end{tabular}
-\caption{Nilai Ujian}
-\end{table}
-
-Dari tabel, dapat kita lihat $\sum f_{i}x_{i}$  = 6130 dan $\sum f_{i}$  = 80. Sehingga:
-
-
-$ \overline{x} = \frac{\sum f_{i}\sum x_{i}}{\sum x_{i}} = \frac{6130}{80} = 76,62 $
-
-Rataan hitung nilai ujiannya adalah 76,62.
-
-Untuk mencari rataan hitung data distribusi frekuensi kelompok dapat digunakan cara lainnya yaitu cara sandi atau cara singkat. Untuk memakai cara ini maka gunakan langkah-langkah berikut
-	Ambil salah satu titik tengah kelas, namakan x0.
-	Untuk titik tengah x0 diberi nilai sandi c = 0
-	Titik tengah yang nilainya kurang dari x0 berturut-turut diberi harga-harga sandi c = -1, c = -2, c = -3, dan seterusnya.
-	Titik tengah yang nilainya lebih dari x0 berturut-turut diberi harga-harga sandi c = +1, c = +2, c = +3, dan seterusnya.
-	p merupakan panjang kelas dimana setiap kelas memiliki panjang kelas yang sama.
-Gunakan rumus
 
 \chapter{Peluang kejadian majemuk}
 \section{Kejadian Saliing bebas}
